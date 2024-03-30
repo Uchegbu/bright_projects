@@ -3,60 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Document</title>
 </head>
 <body>
     
 <div class="container">
  <header>
-  <div class="logo"><img src="LOGO OF CHEESECAKE.jpg" alt="logo"></div>
-  <nav>
-    <ul>
-      <li>HOME</li>
-      <li>ABOUT US</li>
-      <li>MENU</li>
-      <li>CONTACT</li>
+  <div class="logo"><img src="logo.png" alt="logo"></div>
+  <nav class="nav-menu">
+    <ul class="menu-nav">
+      <li class="nav-list"><a href="#">HOME</a></li>
+      <li class="nav-list"><a href="#">ABOUT US</a></li>
+      <li class="nav-list"><a href="#">MENU</a></li>
+      <li class="nav-list"><a href="#">CONTACT</a></li>
     </ul>
   </nav>
-  <BUtton>SIGN UP</BUtton>
+  <BUtton class="menu-button"><a href="#">SIGN UP</a></BUtton>
  </header>
 
   <section>
-    <div>
-      <h1>Bite The World of Cheesecake Wonders</h1>
+    <div class="section-first">
+    <div class="bite-section">
+      <h1>Bite The World of <br>Cheesecake Wonders</h1>
       <p>We always make our customer happy by providing <br> as many choices as possible </p>
-      <div>
-       <button>GET STARTED</button>
-       <button><img src="Watch Demo Button.jpg" alt="#"></button>
+      <div  class="bite-button">
+       <button class="get-bite"> <a href="#">GET STARTED</a></button>
+       <button class="watch-bite"><a href="#"><img src="Watch Demo Button.jpg" alt="#"></a></button>
       </div>
     </div>
 
-    <div>
-      <img src="Main Image (Home).jpg" alt="#">
+    <div class="bite-image">
+      <img src="first cake.png" alt="#">
     </div>
+
+   </div>
   </section>
 </div>
 
 <main>
 <section>
-  <div><img src="About Us Image.jpg" alt="#"></div>
-  <div>
+ <div class="about-section">
+  <div class="about-image"><img src="about 1.png" alt="#"></div>
+  <div class="about-text">
     <h2>We Love Cheesecake</h2>
     <p>Discover Our Cheesecake Story</p>
-    <p>At Cheesecake Love, quality is our cornerstone. Each cheesecake is crafted with the finest ingredients, meticulous attention to detail, and a dash of creativity. </p>
-    <p>We believe in delivering not just desserts but moments of sheer indulgence.</p>
-    <button>READ MORE</button>
+    <p class="text-1">At Cheesecake Love, quality is our cornerstone. <br>Each cheesecake is crafted with the finest ingredients,  <br>meticulous attention to detail, and a dash of creativity. </p>
+    <p class="text-2">We believe in delivering not just desserts but,<br> moments of sheer indulgence.</p>
+    <button class="about-button">READ MORE</button>
+  </div>
   </div>
 </section>
 
-<section>
+<section> 
+  <div class="section-menu">
   <h2>OUR MENU</h2>
-  <div>
-   <div>
-    <div><img src="Blueberry Cheesecake Image.jpg" alt="#"></div>
-    <div>
+  <div class="menu-section">
+   <div class="chessecake">
+    <div class="menu-img"><img src="Blueberry Cheesecake Image.png" alt="#"></div>
+    <div class="menu-text">
       <h3>Blueberry Cheesecake</h3>
       <p>Blueberry love, cheesecake delight!</p>
     </div>
@@ -66,9 +72,9 @@
     </div>
    </div> 
 
-   <div>
-    <div><img src="Blueberry Cheesecake Image.jpg" alt="#"></div>
-    <div>
+   <div class="chessecake">
+    <div class="menu-img"><img src="Blueberry Cheesecake Image.png" alt="#"></div>
+    <div class="menu-text">
       <h3>Biscoff Cheesecake</h3>
       <p>Biscoff adores cheesecake magic</p>
     </div>
@@ -78,9 +84,9 @@
     </div>
    </div> 
 
-   <div>
-    <div><img src="Blueberry Cheesecake Image.jpg" alt="#"></div>
-    <div>
+   <div class="chessecake">
+    <div class="menu-img"><img src="Blueberry Cheesecake Image.png" alt="#"></div>
+    <div class="menu-text">
       <h3>Chocolate Cheesecake</h3>
       <p>Cherish Chocolate, relish cheesecake magic!</p>
     </div>
@@ -91,14 +97,15 @@
    </div> 
 
   </div>
+
+  </div>
 </section>
 
 <section>
   <div>
-    <h2></h2>
-    <p></p>
+    <h2>Our Blog</h2>
+    <p>Our Recent Posts</p>
   </div>
-
   <div>
 
     <div>
@@ -150,7 +157,6 @@
    </div>
    <div>
     <form action="#">
-
      <input type="text" id="name" name="username" placeholder="name">
      <br><br>
      <input type="email" id="e-mail" name="Email" placeholder="Email">
@@ -158,7 +164,6 @@
      <textarea name="comment" id="textarea-label" cols="30" rows="10" placeholder="Your message..."></textarea>
      <br>  
      <input type="submit" value="contact us now">
-
     </form>
    </div>
 
@@ -166,6 +171,22 @@
 </section>
 
 </main>
+
+<footer>
+  <div>
+    <div>
+      <img src="🦆 icon _instagram_.jpg" alt="">
+      <img src="🦆 icon _twitter_.jpg" alt="">
+      <img src="🦆 icon _youtube_.jpg" alt="">
+    </div>
+
+    <div>
+    <h4>Copyright</h4>
+     <p>2024 Dscode | All rights reserved</p>
+    </div>
+
+  </div>
+</footer>
 
 </body>
 </html>
